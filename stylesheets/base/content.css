@@ -1,0 +1,98 @@
+body{
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 20px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Open Sans";
+  font-size: normal;
+}
+h1 {
+  font-size: 34px;
+  line-height: 41px;
+}
+h2 {
+  font-size: 27px;
+  line-height: 32px;
+}
+h3 {
+  font-size: 22px;
+  line-height: 26px;
+}
+h4 {
+  font-size: 17px;
+  line-height: 21px;
+}
+h5 {
+  font-size: 16px;
+  line-height: 20px;
+}
+h6 {
+  font-size: 14px;
+  line-height: 18px;
+}
+a {
+  color: #0f7e96;
+  text-decoration: none;
+}
+a:hover {
+  color: #024f60;
+  text-decoration: underline;
+}
+blockquote {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 425px){
+  body {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  h1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  h4 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  h5 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  h6 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  blockquote {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+ul>li {
+  position: relative;
+  list-style-type: none;
+
+}
+ul>li:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  left: -8px;
+  top: 8px;
+  background-color: #0f7e96;
+}
+li li:before {
+  background-color: #409b98;
+}
